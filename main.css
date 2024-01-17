@@ -1,0 +1,95 @@
+:root {
+    --bg-dark-color: #000;
+    --text-dark-color: #fff;
+    --text-highlight: #8539ff;
+    --seperator: rgba(218, 107, 203, 0.5);
+    --comments-text-color: #939da5;
+
+    /* hidden light theme */
+    --bg-light-color: #fff;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#glados {
+    position: fixed;
+    /* Sit on top of the page content */
+    /* display: none; */
+    /* width: 100%;  /* Full width (cover the whole page) */
+    /* height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.comment {
+    font-style: italic;
+    color: var(--comments-text-color);
+}
+
+.current-page {
+    text-decoration: underline;
+    color: var(--text-highlight);
+}
+
+body {
+    background-color: var(--bg-dark-color);
+    color: var(--text-dark-color);
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    cursor: url('images/cursor.png'), auto;
+    font-size: larger;
+}
+
+nav {
+    margin-top: 2rem;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#hi {
+    text-decoration: underline;
+    ;
+}
+
+a {
+    color: var(--text-highlight);
+    text-decoration: none;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2.5rem;
+    text-align: center;
+    color: var(--comments-text-color);
+}
+
+/*
+footer {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    
+    justify-content: center;
+    color: var(--comments-text-color);
+}
+*/
