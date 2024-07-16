@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Doc's site</title>
+    <!-- BOOTSTRAP CSS GRID -->
+    <link rel="stylesheet" href="../style/bootstrap-grid.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../style/main.css">
+    <!-- JAVASCRIPT -->
+    <script src="../main.js"></script>
+</head>
+
+<body>
+    <input type="button" id="stars" onclick="setStars()" value="✨">
+    <div class="container">
+        <header>
+            <nav class="centered">
+                <a href="../index.html">Home</a>•
+                <a href="/pages/blog.html">Blog</a>•
+                <span class="current-page">About</span>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <h1>About</h1>
+            <article>
+                <p>I am currently studying Computer Science at <a href="https://www.uninsubria.it/"
+                        target="_blank">Uninsubria</a>.</p>
+                <h2>Contents</h2>
+                <ul>
+                    <li>
+                        <p><a href="#whimsical">Whimsical</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#setup">My Setup</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#contacts">Contacts</a></p>
+                    </li>
+                </ul>
+                <h2 id="whimsical">Whimsical</h2>
+                <p>Here are some facets of my online life:</p>
+                <ul>
+                    <li>
+                        <p>I maintain a Geek Code.</p>
+                        <p>
+                            <code>
+                                -----BEGIN GEEK CODE BLOCK----- <br>
+                                Version: 3.1 <br>
+                                GCS d-@>++ s+: a-- C++ UL++ P+ L++ E- !W++ N o? K w O? M-- V-- PS-- !PE Y+ PGP !t !5 X+ R+>++ tv+ b+>+++ DI D+ G e>+++ h r--- y? <br>
+                                ------END GEEK CODE BLOCK------ 
+                            </code>
+                            <br>
+                            <span class="comment">/* The Geek Code is a series of letters and symbols used by
+                                self-described
+                                <a href="https://en.wikipedia.org/wiki/Geek" target="_blank">geeks</a> to inform fellow
+                                geeks about their
+                                personality, appearance, interests, skills, and opinions. */</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>If I was an operating system, I would be Slackware Linux, apparently:</p>
+                        <p>
+                            <a href="https://www.bbspot.com/News/2003/01/os_quiz.php" target="_blank">
+                                <img src="/images/slackware.jpg" alt="">
+                                <br>
+                                Which OS are You?
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+                <h2 id="setup">My Setup</h2>
+                <p>My Main PC:</p>
+                <ul>
+                    <li>OS: Arch Linux (KDE Wayland) & Windows 10 (only for gaming)</li>
+                    <li>CPU: AMD Ryzen 7 3700X</li>
+                    <li>CPU Cooler: Noctua NH-D14 </li>
+                    <li>RAM: Corsair DDR4 32Gb (8*4)</li>
+                    <li>GPU: NVIDIA GeForce RTX 3070</li>
+                    <li>Motherboard: ASUS TUF GAMING B550-PLUS</li>
+                    <li>PSU: Corsair RM850e 850W</li>
+                </ul>
+                <p>My Server:</p>
+                <ul>
+                    <li>OS: Ubuntu Server</li>
+                    <li>CPU: AMD Ryzen 5 5600G</li>
+                    <li>RAM: Corsair DDR4 32Gb (8*2)</li>
+                    <li>GPU: none</li>
+                    <li>Motherboard: Gigabyte B450M DS3H</li>
+                </ul>
+                <h2 id="contacts">Contacts</h2>
+                <p>You can contact me through <a href="#">mail</a>. <span class="comment">&emsp;// not available right
+                        now</span></p>
+                <!-- mailto: I prefer my PGP key to be used if unencrypted methods of communication are used. -->
+                <h3>Other contacts</h3>
+                <ul>
+                    <li>
+                        <p><a href="https://discord.com/users/447467134142906389">Discord</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://github.com/Dev-Doctor">Github</a></p>
+                    </li>
+                </ul>
+            </article>
+        </main>
+
+        <!-- STARS AUDIO -->
+        <audio id="stars_audio" src="../sounds/stars_sound.mp3" style="display: none;"></audio>
+
+        <footer>
+            <span id="copyright"></span>
+        </footer>
+    </div>
+</body>
+
+</html>

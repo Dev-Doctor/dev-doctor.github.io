@@ -2,58 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>doc's site</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="http://jquery.com/jquery-wp-content/themes/jquery/css/base.css?v=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doc's site</title>
+    <!-- BOOTSTRAP CSS GRID -->
+    <link rel="stylesheet" href="style/bootstrap-grid.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style/main.css">
+    <!-- JAVASCRIPT -->
     <script src="main.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
 </head>
 
 <body>
-    <nav class="centered">
-        <span class="current-page">Home</span>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
     <input type="image" id="glados" onclick="play()" src="images/glados.gif">
-    <audio id="glados_audio" src="glados_message.wav" style="display: none;"></audio>
-
-    <div class="centered">
-        <h1><a href="https://nohello.net/en/" target="_blank" id="hi">Hi</a>, im doc</h1>
-        <p>I'm a developer, i make and break stuff.</p>
-        <p>One day this site will actually have something interesting on it. In the meantime check out some <a href="https://hl2.sh/hlfacts">some obscure facts about Half-Life</a>.</p>
-
-        <h2>Projects</h2>
-        <p>Most of my projects are on <a href="https://github.com/Dev-Doctor">github</a> and most stuff is privated.</p>
-        <p>Some interesting projects that are public of note are:</p>
-        <ul>
-            <li><a href="https://github.com/Dev-Doctor/GLaDOS-Assistant">GLaDOS Voice Assistant (wip)</a></li>
-        </ul>
+    <div class="container">
+        <div>
+            <header>
+                <nav>
+                    <span class="current-page">Home</span>•
+                    <a href="/pages/blog.html">Blog</a>•
+                    <a href="/pages/about.html">About</a>
+                </nav>
+            </header>
+            <hr>
+            <main>
+                <h1><a href="https://nohello.net/en/" target="_blank" id="hi">Hi</a>, im doc</h1>
+                <article>
+                    <p><a href="pages/theMasterpiece.html">Would you kindly have a great day?</a></p>
+                    <p>I'm a developer and (un)professional gamer. Welcome to my personal space!</p>
+                    <p>One day this site will actually have something interesting on it. In the meantime check out <a
+                            href="https://hl2.sh/hlfacts" target="_blank">some obscure facts about Half-Life</a>.</p>
+                    <h2>Projects</h2>
+                    <p>
+                        Most of my projects are on <a href="https://github.com/Dev-Doctor">Github</a> and most stuff is
+                        privated. I like to keep my stuff private until it's ready for public consumption.
+                        I have a really good collections of projects that I never published and I want to change that in
+                        the near future.
+                    </p>
+                    <p>
+                        I play <a href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons" target="_blank">D&D</a> as
+                        the Dungeon Master, I am building a new campaign setting and I am really excited for it.
+                    <ul>
+                        <li><a href="/pages/dungeon&dragons.html">My Dungeon & Dragons</a></li>
+                    </ul>
+                    I would like to play other <a href="https://en.wikipedia.org/wiki/Role-playing_game">GDRs</a>:
+                    </p>
+                    <ul>
+                        <li><a href="https://freeleaguepublishing.com/games/alien/" target="_blank">Alien</a></li>
+                        <li><a href="https://www.needgames.it/giochi/blade-runner/#cover" target="_blank">Blade
+                                Runner</a></li>
+                        <li><a href="https://www.needgames.it/giochi/cyberpunk-red/#benvenuti" target="_blank">Cyberpunk
+                                RED</a></li>
+                        <li><a href="https://www.needgames.it/giochi/fallout/" target="_blank">Fallout</a></li>
+                        <li><a href="https://www.needgames.it/giochi/the-breach/" target="_blank">The Breach</a></li>
+                    </ul>
+                    <p>
+                        I am a HUGE rich story games enjoyer, those are my favorite games. And I don't mean the games that focus only on the story of the main character, but they tells another story using the environment if you can pick up on that.
+                        <br> If you love those type of games too, here are some of my favorite:
+                        <ul>
+                            <li>The Bioshock Collection</li>
+                            <li>The Half-life Series</li>
+                            <li>Control</li>
+                            <li>SOMA</li>
+                            <li>Amnesia</li>
+                        </ul>
+                    </p>
+                    <!-- 
+                    <p>Some interesting projects that are public of note are:</p>
+                    <ul>
+                        <li><a href="https://github.com/Dev-Doctor/GLaDOS-Assistant">GLaDOS Voice Assistant (wip)</a></li> 
+                        <li>None</li>
+                    </ul> 
+                    -->
+                </article>
+            </main>
+            <hr>
+            <p>This page was last updated on <time datetime="2024-07-16">Tuesday, July 16, 2024</time></p>
+            <div>
+                <a href="https://firefox.com" target="_blank"><img src="buttons/firefox_best.gif" alt="nuh uh"></a>
+                <a href="https://smokepowered.com/" target="_blank"><img src="buttons/smoke.gif"
+                        alt="SMOKE powered"></a>
+                <a href="https://www.thunderbird.net/" target="_blank"><img src="buttons/thunderbird.gif" alt=""></a>
+                <a href="https://www.half-life.com/en/halflife25" target="_blank"><img src="buttons/newlambda.gif"
+                        alt=""></a>
+                <a href="https://archlinux.org/" target="_blank"><img src="buttons/powered-by-arch.png" alt=""></a>
+                <a href="https://code.visualstudio.com/" target="_blank"><img src="buttons/vscbutton.gif" alt=""></a>
+                <img src="buttons/best viewed with.gif" alt="">
+            </div>
+            <span><small><a href="pages/buttons.html">What are these buttons?</a></small></span>
+        </div>
     </div>
 
-    <div class="centered">
-        <!-- <h2>Friends</h2> -->
-        <!-- <p>No 88x31 buttons :(</p> -->
-    </div>
-
-    <div class="centered">
-        <!-- <h2>Stuff</h2> -->
-        <a href="https://firefox.com"><img src="buttons/firefox_best.gif" alt="nuh uh"></a>
-        <a href="https://smokepowered.com/" target="_blank"><img src="buttons/smoke.gif" alt="SMOKE powered"></a>
-        <a href="https://www.thunderbird.net/"><img src="buttons/thunderbird.gif" alt=""></a>
-        <img src="buttons/newlambda.gif" alt="">
-        <img src="buttons/powered-by-debian.gif" alt="">
-        <a href="https://code.visualstudio.com/"><img src="buttons/vscbutton.gif" alt=""></a>
-        <img src="buttons/best viewed with.gif" alt="">
-    </div>
+    <!-- AUDIO FOR GLADoS -->
+    <audio id="glados_audio" src="/sounds/glados_message.wav" style="display: none;"></audio>
 
     <footer>
-        <div class="centered">
-            <span id="copyright"></span>
-        </div>
+        <span id="copyright"></span>
     </footer>
 </body>
 
