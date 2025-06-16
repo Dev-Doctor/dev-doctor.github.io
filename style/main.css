@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-    --bg-dark-color: #000;
+    --bg-dark-color: rgb();
 
     --text-highlight: #8539ff;
     --comments-text-color: #939da5;
@@ -19,6 +19,8 @@ body {
     flex-direction: column;
     max-width: 900px;
 
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
 
@@ -27,7 +29,10 @@ body {
 
     font-size: larger;
 
-    background-color: var(--bg-dark-color);
+    background-image: url("../images/wallpaper_two.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+    /* background-color: var(--bg-dark-color); */
     color: var(--dark-text-color);
     font-family: Calibri;
 }
@@ -100,6 +105,10 @@ nav {
 
 #hi {
     text-decoration: underline;
+}
+
+.main-bg {
+    background-color: #000000d5;
 }
 
 .centered {
