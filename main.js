@@ -1,7 +1,7 @@
 window.onload = function () {
     var footer_text = document.getElementById("copyright");
     footer_text.textContent = "\u00A9 2020-" + new Date().getFullYear() + " DevDoctor";
-    if(localStorage.getItem('stars')) {
+    if(localStorage.getItem('stars') && !this.document.getElementById("nostars")) {
         stars();
     }
 };
